@@ -66,6 +66,7 @@
       class MoodMeter extends React.Component{
         render(){
           return(
+            <div>
               <h3>Mood Options:</h3>
               <p style={{fontSize: "40px"}}>{ this.props.moodOptions }</p>
               <button onClick={ }>Click Here For Next Mood Option</button>
@@ -75,6 +76,7 @@
               <button onClick={ this.props.setThisMood }>Yup, this is me right now.</button>
               <h3>My mood:</h3>
               <p style={{fontSize: "40px"}}>{ this.props.set }</p>
+          </div>
           )
         }
       }
